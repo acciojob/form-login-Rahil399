@@ -10,5 +10,5 @@ function getFormvalue(event) {
 		alert("Please enter your name.");
 	}	
 
-	document.getElementById("form1").addEventListner("sumbit, getFormvalue");
+	document.getElementById("form1").addEventListner("sumbit", getFormvalue);
 }
